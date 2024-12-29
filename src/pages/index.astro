@@ -52,5 +52,6 @@ const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
   </div>
 
   <div slot="aside" class={styles.aside}>
+    <BlogPostsLink heading="Latest posts" posts={recentPosts} />
   </div>
 </Layout>
